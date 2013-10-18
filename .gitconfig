@@ -1,0 +1,11 @@
+[credential]
+	helper = osxkeychain
+
+[alias]
+	co = checkout
+	ci = commit -m
+	st = status
+
+[user]
+	name = Ben Klein
+	email = benk@shadowhealth.com
