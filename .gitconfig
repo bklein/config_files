@@ -8,4 +8,6 @@
 
 [user]
 	name = Ben Klein
-	email = benk@shadowhealth.com
+	email = ben@paracosm.io
+[heroku]
+	account = personal

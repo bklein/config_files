@@ -7,8 +7,11 @@ source ~/.git-prompt.sh
 alias gco='git co'
 alias gci='git ci'
 alias gst='git st'
+alias gad='git add'
 alias be='bundle exec'
+
+#alias spec='be rspec'
 
 export PS1='\u:\w$(__git_ps1 " (%s)") \$ '
 
-export PATH=/usr/local/bin:/Users/sparlock/.rvm/gems/ruby-1.9.3-p448/bin:/Users/sparlock/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/sparlock/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/sparlock/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=/usr/local/sbin:/usr/local/bin:$PATH
